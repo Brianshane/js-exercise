@@ -1,0 +1,17 @@
+const - const is used to declare a variable that remains unchanged
+var - creates a function scoped variable whose value can be changed or whose declarations can be repeated
+let - declares a variable that is blocked scoped who value can be reassigned but not redeclarediwthin the same scope
+b)
+primitive data types->string,numbers,boolean,bigint,undefined,null,symbol
+primitive datatypes stores valies while for objects that value is a reference to the object
+c)
+lose equality allows conversion of datatypes while strict equality does not allow conversion of datatypes hence strongly recomended for its correctness
+d)
+&&(and)operators execute statements when both conditions are met
+||(or)operator execute  statements when one condition is true
+---(not)operator inverses the conditions 
+and operator stops execution on first false while or operator stops execution on first true
+short circuit evaluation is where the javascript stops evaluating a logical expression as soon as the final result is already known
+d)
+switch is useful when comparing one variable against many specific values.
+default is use when none of the cases are matching
