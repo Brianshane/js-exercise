@@ -15,3 +15,20 @@ short circuit evaluation is where the javascript stops evaluating a logical expr
 d)
 switch is useful when comparing one variable against many specific values.
 default is use when none of the cases are matching
+//js loops
+truthy is a value that javascript trat as true when used a boolean context
+falsly is a value that javascript treat as fasle when used in boolean context
+truthy->strings,numbers,objects,arrays
+falsly->null,undefined,-0,NaN,"",
+
+short circuit evaluation means javascript stops evaluating an expression as it knows it final answer
+&&(and)-javascript stops evaluating when it finds afalsy value;
+||(or)->javascript stops evaluating when it finds a truthy value;
+
+strict equality operator is recomended over loose equality because it compares both the value and the datatype without performing type coercion
+it is preferred because because it makes code predictable.
+loose equality compares values after possible type coercion
+
+quizz 5
+the first logical expreesion is executed because the the loose equality is executed where string is converted to number making the expression true the second second expression is for strict equality wich checks the values and its datatypes making the logical expression true as a string 
+ 
